@@ -8,7 +8,7 @@ BCC (BPF Compiler Collection) 是基于 Linux eBPF 特性的内核跟踪及调�
 
 #### 参考资料
 
-《Intro to bcc》
+《Introduce to bcc》
 
 《BCC 最新版本安装与使用》
 
