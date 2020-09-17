@@ -1,0 +1,95 @@
+[slogan_1]
+	title = ""
+	description = ""
+	quick_start_text = ""
+	quick_start_link = ""
+	github_link = "https://github.com/OpenAnolis/OpenAnolis.org"
+	button_name = ""
+
+[slogan_2]
+	title = "Alibaba Cloud Linux"
+	description = "Alibaba Cloud Linux 是一个开源的Linux发行版，专门为云计算的应用场景而设计和优化，经历阿里云大规模部署及阿里巴巴电商业务极限压力的锤炼，是一款稳定、高效、安全、可靠的免费操作系统。"
+	quick_start_text = "了解更多"
+	quick_start_link = "https://www.aliyun.com/product/alinux"
+	button_name = "下载"
+	github_link = "/downloads"
+
+[slogan_3]
+	title = ""
+	description = ""
+	quick_start_text = ""
+	quick_start_link = "/guides/"
+	github_link = ""
+	button_name = ""
+
+[slogan_4]
+	title = "Alibaba Cloud Linux社区"
+	description = "Alibaba Cloud Linux 是一个开源的Linux发行版，专门为云计算的应用场景而设计和优化，经历阿里云大规模部署及阿里巴巴电商业务极限压力的锤炼，是一款稳定、高效、安全、可靠的免费操作系统。"
+	quick_start_text = "快速开始"
+	quick_start_link = "/guides/"
+	github_link = "https://github.com/OpenAnolis/OpenAnolis.org"
+	button_name = "Github"
+
+[[feature]]
+	title = "为云而生"
+	description = "面向云的开源操作系统社区"
+	img = "img/home/buildforcloud.svg"
+[[feature]]
+	title = "云原生系统"
+	description = "全栈开源生态"
+	img = "img/home/system.svg"
+[[feature]]
+	title = "开放、创新"
+	description = "开放的创新平台"
+	img = "img/home/open.svg"
+
+
+
+[cloud_native]
+	title = "云原生架构"
+	img = "img/home/cd-cloud-native-architecture.png"
+	img_width = "530px"
+
+[subscription]
+	title = "希望订阅最新的 Anolis 消息？"
+	button = "订阅"
+
+[more]
+	title = "更多"
+
+[hot_projects]
+	title = "推荐项目"
+
+[hot_communities]
+	title = "社区动态"
+
+[hot_blogs]
+	title = "精选博客"
+
+[hot_activities]
+	title = "热门活动"
+
+[partners]
+	title = "合作伙伴"
+
+[about]
+	title = "关于OpenAnolis"
+	description = "OpenAnolis是一个开源操作系统社区及系统软件创新平台，致力于通过开放的社区合作，推动软硬件及应用生态繁荣发展，共同构建云计算系统技术底座"
+
+# index projects slogan
+[pro_1]
+	title = "Alibaba Dragonwell"
+	github_link = "https://github.com/alibaba/dragonwell8"
+	description = "Alibaba Dragonwell 是一款开源，免费的, 生产就绪型Open JDK 发行版"
+[pro_2]
+	title = "Inclavare Containers"
+	github_link = "https://github.com/alibaba/inclavare-containers"
+	description = "Inclavare Containers是面向云原生场景的机密计算开源OCI容器运行时，把机密计算带进云原生生态，降低机密计算的开发和使用成本"
+[pro_3]
+	title = "Occlum"
+	github_link = "https://occlum.io"
+	description = "Occlum是一款开源的TEE OS，可以大幅降低SGX应用的开发门槛"
+[pro_4]
+	title = "Cloud Kernel"
+	github_link = "https://github.com/openanolis/cloud-kernel"
+	description = "Cloud Kernel 针对云计算场景定制和深度优化的开源LTS 版本内核，提高云上应用性能和用户的使用体验"

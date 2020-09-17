@@ -1,0 +1,97 @@
+[slogan_1]
+	#title = "OpenAnolis Announcement"
+	#description = "on APSARA Conference 2020"
+	#quick_start_text = "Click to Watch"
+	#quick_start_link = "/en/guides/"
+	#github_link = "https://github.com/OpenAnolis/OpenAnolis.org"
+	#button_name = "Test"
+
+[slogan_2]
+	title = "Alibaba Cloud Linux"
+	description = "Alibaba Cloud Linux is an open source Linux distribution, which is designed and optimized for cloud computing. It is a stable, hig performance, secure and reliable free operating system due to the large scale deployment in Alibaba cloud and the extreme pressure workload of Alibaba's e-commerce."
+	quick_start_text = "Learn More"
+	quick_start_link = "https://alibaba.github.io/cloud-kernel/os.html"
+	github_link = "/en/downloads"
+	button_name = "Download"
+
+[slogan_3]
+	title = ""
+	description = ""
+	quick_start_text = ""
+	quick_start_link = "/en/guides/"
+	github_link = ""
+	button_name = ""
+
+[slogan_4]
+	title = "Alibaba Cloud Linux Community"
+	description = "Alibaba Cloud Linux is an open source Linux distribution, which is designed and optimized for cloud computing. It is a stable, hig performance, secure and reliable free operating system due to the large scale deployment in Alibaba cloud and the extreme pressure workload of Alibaba's e-commerce."
+	quick_start_text = "Quick Start"
+	quick_start_link = "/en/guides/"
+	github_link = "https://github.com/OpenAnolis/OpenAnolis.org"
+	button_name = "Github"
+
+[[feature]]
+	title = "Build for Cloud"
+	description = "Linux Distribution Community for Cloud"
+	img = "img/home/buildforcloud.svg"
+[[feature]]
+	title = "Cloud Native System"
+	description = "Full Stack Open Source Ecosystem"
+	img = "img/home/system.svg"
+[[feature]]
+	title = "Open and Innovation"
+	description = "Open and Innovation Platform"
+	img = "img/home/open.svg"
+
+
+
+
+[cloud_native]
+	title = "Cloud Native Architecture"
+	img = "img/home/cd-cloud-native-architecture.png"
+	img_width = "530px"
+
+
+[subscription]
+	title = "Interested in receiving the latest aliyun  news?"
+	button = "Subscribe"
+
+[more]
+	title = "More"
+
+[hot_projects]
+	title = "Recommend Projects"
+
+[hot_communities]
+	title = "Community News"
+
+[hot_blogs] 
+	title = "Selected Blogs"
+
+[hot_activities]
+	title = "Hot Activities"
+
+[partners]
+	title = "Partners"
+
+[about]
+	title = "About OpenAnolis"
+	description = "OpenAnolis is an open source operating system community and innovation platform. It aims to promote the prosperity and development of software and hardware and application ecosystem through open community cooperation, and build the system technology of cloud computing jointly"
+
+# index projects slogan
+[pro_1]
+	title = "Alibaba Dragonwell"
+	github_link = "https://github.com/alibaba/dragonwell8"
+	description = "Alibaba Dragonwell, as a downstream version of OpenJDK, is the in-house OpenJDK implementation at Alibaba"
+[pro_2]
+	title = "Inclavare Containers"
+	github_link = "https://github.com/alibaba/inclavare-containers"
+	description = "Inclavare Containers is an open source OCI container implementation of confidential computing, it brings confidential computing into the cloud native ecosystem and reduces the development and use costs of confidential computing"
+[pro_3]
+	title = "Occlum"
+	github_link = "https://occlum.io"
+	description = "Occlum is a memory-safe, multi-process library OS (LibOS) for Intel SGX. As a LibOS, it enables legacy applications to run on SGX with little or even no modifications of source code, thus protecting the confidentiality and integrity of user workloads transparently"
+[pro_4]
+	title = "Cloud Kernel"
+	github_link = "https://github.com/openanolis/cloud-kernel"
+	description = "Cloud Kernel - is based on LTS version Linux kernel and customized and optimized deeply for cloud computing scenarios to improve application performance and user experience on the cloud"

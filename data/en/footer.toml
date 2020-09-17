@@ -1,0 +1,37 @@
+# Links in footer
+
+[[links]]
+	category = "Resources"
+	link_arr = [
+		["Github", 'https://github.com/OpenAnolis'],
+		["Gitee", 'https://gitee.com/OpenAnolis/'],
+	]
+
+#[[links]]
+#	category = "Social Media"
+#	link_arr = [
+#		["Zhihu", 'https://zhuanlan.zhihu.com/OpenAnolis'],
+#		["Weibo", 'https://weibo.com/OpenAnolis'],
+#		["Twitter", "https://twitter.com/OpenAnolis"]
+#	]
+
+[[links]]
+	category = "Get Involved"
+	link_arr = [
+		["Community","/en/community/main/"],
+		["Email","mailto:contact@OpenAnolis.org"],
+	]
+
+[[links]]
+	category = "Relevant Introductions"
+	link_arr = [
+		["Brand", '/brand/'],
+		["Legal Notice","/legal/"],
+		["Privacy Policy","/privacy/"],
+	]
+
+# qrcode
+[[qrcode]]
+	img = "img/qrcode/wechat.jpg"
+	description = "OpenAnolis Wechat Official Account"
+

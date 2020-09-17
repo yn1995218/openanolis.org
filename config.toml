@@ -1,0 +1,198 @@
+Paginate = "10"
+baseURL = ""
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+disableKinds = ["taxonomyTerm"]
+enableGitInfo = true
+googleAnalytics = "UA-177220356-1"
+hasCJKLanguage = true
+languageCode = "zh-CN"
+title = "Anolis Community"
+[languages.en]
+contentDir = "content/en"
+languageName = "English"
+weight = 10
+[languages.zh]
+contentDir = "content/zh"
+languageName = "中文"
+weight = 20
+
+
+
+[[languages.zh.menu.main]]
+identifier = "projects"
+name = "项目"
+url = ""
+weight = 1
+[[languages.zh.menu.main]]
+identifier = "sig"
+name = "SIG"
+url = "/sig/"
+weight = 2
+[[languages.zh.menu.main]]
+identifier = "community"
+name = "社区"
+url = "/community/main"
+weight = 3
+[[languages.zh.menu.main]]
+identifier = "news"
+name = "动态"
+url = "/news/"
+weight = 4
+[[languages.zh.menu.main]]
+identifier = "blog"
+name = "博客"
+url = "/blog/"
+weight = 5
+[[languages.zh.menu.main]]
+identifier = "document"
+name = "文档"
+url = "/document/main"
+weight = 6
+[[languages.zh.menu.main]]
+identifier = "activities"
+name = "活动"
+url = "/activities/"
+weight = 7
+# [[languages.zh.menu.main]]
+# identifier = "cicd"
+# name = "CICD"
+# url = "/cicd/"
+# weight = 8
+[[languages.zh.menu.main]]
+identifier = "downloads"
+name = "下载"
+url = "/downloads/"
+weight = 8
+
+
+
+[[languages.zh.menu.main]]
+parent = "projects"
+identifier = "inclavare"
+name = "Inclavare Containers"
+url = "https://inclavare-containers.io"
+weight = 1
+[[languages.zh.menu.main]]
+parent = "projects"
+identifier = "diagnose-tools"
+name = "Diagnose-tools"
+url = "/projects/diagnose-tools/"
+weight = 2
+[[languages.zh.menu.main]]
+parent = "projects"
+identifier = "cloud_kernel"
+name = "Cloud Kernel"
+url = "https://alibaba.github.io/cloud-kernel/"
+weight = 3
+[[languages.zh.menu.main]]
+parent = "projects"
+identifier = "dragonwell"
+name = "Dragonwell"
+url = "http://dragonwell-jdk.io/"
+weight = 4
+[[languages.zh.menu.main]]
+parent = "projects"
+identifier = "occlum"
+name = "Occlum"
+url = "http://occlum.io/"
+weight = 5
+
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = ""
+weight = 1
+[[menu.main]]
+identifier = "sig"
+name = "SIG"
+url = "/en/sig/"
+weight = 2
+[[menu.main]]
+identifier = "community"
+name = "Community"
+url = "/en/community/main"
+weight = 3
+[[menu.main]]
+identifier = "news"
+name = "News"
+url = "/en/news/"
+weight = 4
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/en/blog/"
+weight = 5
+[[menu.main]]
+identifier = "document"
+name = "Document"
+url = "/en/document/main"
+weight = 6
+[[menu.main]]
+identifier = "activities"
+name = "Activities"
+url = "/en/activities/"
+weight = 7
+# [[menu.main]]
+# identifier = "cicd"
+# name = "CICD"
+# url = "/en/cicd/"
+#weight = 8
+[[menu.main]]
+identifier = "downloads"
+name = "Downloads"
+url = "/en/downloads/"
+weight = 8
+
+[[menu.main]]
+parent = "projects"
+identifier = "inclavare"
+name = "Inclavare Containers"
+url = "https://inclavare-containers.io/"
+weight = 1
+[[menu.main]]
+parent = "projects"
+identifier = "diagnose-tools"
+name = "Diagnose-tools"
+url = "/en/projects/diagnose-tools/"
+weight = 2
+[[menu.main]]
+parent = "projects"
+identifier = "cloud_kernel"
+name = "Cloud Kernel"
+url = "https://alibaba.github.io/cloud-kernel/"
+weight = 3
+[[menu.main]]
+parent = "projects"
+identifier = "dragonwell"
+name = "Dragonwell"
+url = "http://dragonwell-jdk.io/"
+weight = 4
+[[menu.main]]
+parent = "projects"
+identifier = "occlum"
+name = "Occlum"
+url = "http://occlum.io/"
+weight = 5
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+[params]
+description = "Alibaba cloud linux is a ..."
+favicon = "/img/icons/head.png"
+github = "https://github.com/OpenAnolis/OpenAnolis.org"
+[params.algolia]
+params = ["categories", "tags", "series"]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+[params.homeSubscription]
+enable = false
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.3
