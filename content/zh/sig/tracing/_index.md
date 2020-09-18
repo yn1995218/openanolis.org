@@ -10,7 +10,11 @@ sidebar:
   - title: "正在进行的项目"
     sub:
     - title: "BCC"
-      link: "bcc"
+      sub:
+      - title: "BCC项目"
+        link: "bcc"
+      - title: "Introduce to BCC"
+        link: "introduce-bcc"
     - title: "Diagnose-tool"
       link: "diagnose-tool"
     - title: "NX"

@@ -4,5 +4,20 @@ description: "Tracking and diagnosis technology is an indispensable topic in the
 level: "main"
 weight: 12
 icon: "/img/icons/跟踪.png"
+sidebar:
+  - title: "兴趣小组介绍"
+    link: "overview"
+  - title: "正在进行的项目"
+    sub:
+    - title: "BCC"
+      sub:
+      - title: "BCC项目"
+        link: "bcc"
+      - title: "Introduce to BCC"
+        link: "introduce-bcc"
+    - title: "Diagnose-tool"
+      link: "diagnose-tool"
+    - title: "NX"
+      link: "nx"
 ---
 
