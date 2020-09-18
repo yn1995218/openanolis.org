@@ -4,5 +4,20 @@ description: "In the cloud scenario, with quick iterations of new hardware , the
 level: "main"
 weight: 13
 icon: "/img/icons/高性能.png"
+sidebar:
+  - title: "高性能存储技术SIG"
+    link: "overview"
+  - title: "进行的相关项目"
+    sub:
+      - title: "io_uring 基础技术"
+        link: "basic"
+      - title: "io_uring 测试框架"
+        link: "testing"
+      - title: "io_uring 应用适配"
+        link: "application"
+  - title: "IRC 及邮件列表"
+    link: "community"
+  - title: "常见问题"
+    link: "faq"
 ---
 

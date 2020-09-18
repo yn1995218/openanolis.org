@@ -30,6 +30,12 @@
 		["隐私政策","/privacy/"],
 	]
 
+[[links]]
+	category = "社区招聘"
+	link_arr = [
+		["社会招聘", '/hr/'],
+	]
+
 # qrcode
 [[qrcode]]
 	img = "img/qrcode/wechat.jpg"
