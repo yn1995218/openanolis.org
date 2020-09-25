@@ -21,6 +21,7 @@ IRC：[#anolis-linux](https://webchat.freenode.net/#anolis-linux)
 当前成员：
 
 - 飞绪
+- 毛文安
 - 微谱
 - 荣旸
 
