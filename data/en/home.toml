@@ -84,7 +84,7 @@
 # index projects slogan
 [pro_1]
 	title = "Alibaba Dragonwell"
-	github_link = "65"
+	github_link = "https://github.com/alibaba/dragonwell8"
 	description = "Alibaba Dragonwell, as a downstream version of OpenJDK, is the in-house OpenJDK implementation at Alibaba"
 [pro_2]
 	title = "Inclavare Containers"
