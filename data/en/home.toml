@@ -109,6 +109,10 @@
     img = "img/partner-logo/乾云.jpg"
 [[logo]]
     img = "img/partner-logo/兆芯red.jpg"
+[[logo]]
+    img = "img/partner-logo/统信.jpg"
+[[logo]]
+    img = "img/partner-logo/金石易服.PNG"
 
 #community-logo in index
 [[community_logo]]
