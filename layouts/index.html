@@ -119,6 +119,32 @@
 	</div>
 </div>
 
+<div class="slogan">
+	<h2 class="anolis-title">{{ $data.partners.title }}</h2>
+    <ul class="partern-logo-ul" style="width: 89%; margin: 0 auto; overflow: hidden; text-align: center;">
+        <span style="display:inline-block; margin:0 auto; overflow: hidden;">
+            {{ range $data.logo }}
+            <li style="white-space: nowrap;float: left; width: 150px; height: 100px; list-style: none; margin-top: 15px; margin-right: 40px; display: flex; align-items:center; justify-content: center;">
+                <img src="{{ .img | relURL }}" alt="" style="height: auto;width: 150px">
+            </li>
+            {{ end }}
+        </span>
+    </ul>
+</div>
+
+<div class="slogan">
+	<h2 class="anolis-title">{{ $data.community.title }}</h2>
+    <ul class="partern-logo-ul" style="width: 89%; margin: 0 auto; overflow: hidden; text-align: center;">
+        <span style="display:inline-block; margin:0 auto; overflow: hidden;">
+            {{ range $data.community_logo }}
+            <li style="white-space: nowrap;float: left; width: 150px; height: 100px; list-style: none; margin-top: 15px; margin-right: 40px; display: flex; align-items:center; justify-content: center;">
+                <img src="{{ .img | relURL }}" alt="" style="height: auto;width: 150px">
+            </li>
+            {{ end }}
+        </span>
+    </ul>
+</div>
+
 <div style="height: 20px;"></div>
 
 
@@ -135,3 +161,4 @@
 {{ end }}
 
 {{ end }}
+
