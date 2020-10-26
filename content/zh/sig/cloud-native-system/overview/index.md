@@ -12,7 +12,7 @@ title: 云原生系统兴趣小组介绍
 
 # 邮件列表与通信方式
 
-邮件列表：[cloud-native@OpenAnolis.org](mailto:cloud-native@OpenAnolis.org)
+邮件列表：[cloud-native@lists.openanolis.org](mailto:cloud-native@lists.openanolis.org)
 
 IRC：[#anolis-cloud-native](https://webchat.freenode.net/#anolis-cloud-native)
 

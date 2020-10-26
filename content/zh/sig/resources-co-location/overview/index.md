@@ -17,7 +17,7 @@ aliases: "/resource_co-location/docs/Home"
 
 ## 邮件列表与通信方式
 
-邮件列表：[cloud-kernel@OpenAnolis.org](mailto:cloud-kernel@OpenAnolis.org)
+邮件列表：[cloud-kernel@lists.openanolis.org](mailto:cloud-kernel@lists.openanolis.org)
 
 IRC：[#anolis-linux](https://webchat.freenode.net/#anolis-linux)
 

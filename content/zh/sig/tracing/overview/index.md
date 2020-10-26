@@ -12,7 +12,7 @@ title: 跟踪诊断技术SIG介绍
 
 # 邮件列表与通信方式
 
-邮件列表：[cloud-kernel@OpenAnolis.org](mailto:cloud-kernel@OpenAnolis.org)
+邮件列表：[cloud-kernel@lists.openanolis.org](mailto:cloud-kernel@lists.openanolis.org)
 
 IRC：[#anolis-linux](https://webchat.freenode.net/#anolis-linux)
 
@@ -33,5 +33,5 @@ IRC：[#anolis-linux](https://webchat.freenode.net/#anolis-linux)
 # 更多信息
 
 - 官方网站：(https://OpenAnolis.org)
-- 社区邮箱：([community@OpenAnolis.org](mailto:community@OpenAnolis.org))
+- 社区邮箱：([cloud-kernel@lists.openanolis.org](mailto:cloud-kernel@lists.openanolis.org))
 - 贡献代码：(https://openanolis.org/community/main/contributing/)
