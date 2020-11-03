@@ -22,11 +22,13 @@ title: 高性能存储技术SIG
 
 影浩
 
-鸿枫 
+鸿枫
+
+厌山
 
 # 通信方式
 
-邮件列表：[cloud-kernel@OpenAnolis.org](mailto:cloud-kernel@OpenAnolis.org)
+邮件列表：[cloud-kernel@lists.openanolis.org](mailto:cloud-kernel@lists.openanolis.org)
 
 IRC：[#anolis-linux](https://webchat.freenode.net/#anolis-linux)
 

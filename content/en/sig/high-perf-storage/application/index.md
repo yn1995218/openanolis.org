@@ -14,7 +14,7 @@ echo server 是一个经典的用于评估网络性能的测试套件，多个�
 
 传统上 echo server 通常利用 select，epoll，kequeue 等机制实现。以 epoll 为例，利用 epoll_ctl 监听用于网络通信的fd，利用 epoll_wait 可以获得可读写的文件句柄，然后再对每个返回的文件句柄调用 recv()，send() 等进行消息收发。
 io_uring 提供的网络编程模型不同于 epoll，以recv()为例，它不需要通过 epoll_ctl 进行文件句柄的注册，io_uring 首先在用户态用 sqe 结构描述一个 io 请求，然后用户程序通过调用 io_uring_submit_and_wait() 来提交和等待该请求，类似于 epoll_wait()，最后 io_uring_submit_and_wait() 返回时的cqe结构用于描述之前提交的 recv() 请求的完成状态。
-io_uring 相比于 epoll 可以极大降低系统的用户态到内核态上下文切换开销，从而提高 echo server 的 qps。我们在物理机环境进行 echo server 编程模型下 io_uring 和 epoll 的性能对比，server 端 cpu Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz, client 端 cpu Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz。
+io_uring 相比于 epoll 可以极大降低系统的用户态到内核态上下文切换开销，从而提高 echo server 的 qps。我们在物理机环境进行 echo server 编程模型下 io_uring 和 epoll 的性能对比，server 端 cpu Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz, client 端 cpu Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz，OS 使用 Alibaba Cloud Linux 2.1903 LTS 64 位。
 
 
 
@@ -84,7 +84,8 @@ redis 6.0 之后，可以配置用一组单独的 IO 线程进行 read/write soc
 
 **测试环境**
 CPU: Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz
-server 和client 在同一台机器上。
+OS: Alibaba Cloud Linux 2.1903 LTS 64 位
+server 和 client 在同一台机器上。
 
 
 
@@ -159,7 +160,8 @@ make install
 
 
 **测试环境**
-CPU: Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz，打开CPU漏洞缓解（mitigation=on）。
+CPU: Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz，打开CPU漏洞缓解（mitigation=on）
+OS: Alibaba Cloud Linux 2.1903 LTS 64 位
 
 
 
