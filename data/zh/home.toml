@@ -72,6 +72,9 @@
 [partners]
 	title = "合作伙伴"
 
+[community]
+	title = "合作社区"
+
 [about]
 	title = "关于OpenAnolis"
 	description = "OpenAnolis是一个开源操作系统社区及系统软件创新平台，致力于通过开放的社区合作，推动软硬件及应用生态繁荣发展，共同构建云计算系统技术底座"
@@ -93,3 +96,26 @@
 	title = "Cloud Kernel"
 	github_link = "https://github.com/openanolis/cloud-kernel"
 	description = "Cloud Kernel 针对云计算场景定制和深度优化的开源LTS 版本内核，提高云上应用性能和用户的使用体验"
+
+# partern-logo in index
+
+[[logo]]
+    img = "img/partner-logo/联通云.JPG"
+[[logo]]
+    img = "img/partner-logo/麒麟软件.PNG"
+[[logo]]
+    img = "img/partner-logo/乾云.jpg"
+[[logo]]
+    img = "img/partner-logo/兆芯red.jpg"
+[[logo]]
+    img = "img/partner-logo/统信.jpg"
+[[logo]]
+    img = "img/partner-logo/金石易服.PNG"
+
+#community-logo in index
+[[community_logo]]
+    img = "img/partner-logo/CSDN.jpg"
+[[community_logo]]
+    img = "img/partner-logo/龙芯俱乐部.jpg"
+[[community_logo]]
+    img = "img/partner-logo/木兰社区.jpg"

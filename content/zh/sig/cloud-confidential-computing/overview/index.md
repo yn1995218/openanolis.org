@@ -12,9 +12,9 @@ title: 云原生机密计算SIG介绍
 
 # 通信方式
 
-邮件列表：[inclavare-containers@OpenAnolis.org](mailto:inclavare@OpenAnolis.org)
+邮件列表：[cncc@lists.openanolis.org](mailto:cncc@lists.openanolis.org)
 
-IRC：[#anolis-inclavare](https://webchat.freenode.net/#anolis-inclavare)
+IRC：[#anolis-cncc](https://webchat.freenode.net/#anolis-cncc)
 
 # 成员列表
 
